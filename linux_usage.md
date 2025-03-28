@@ -1,6 +1,6 @@
   ![image](https://github.com/user-attachments/assets/8ae4fc3a-037d-41ee-a7ab-8e0a7b6d5806)
 
-'''
+```
 /etc/systemd/system/set-queues.service
 [Unit]
 Description=Reduce Intel X710 queues
@@ -15,8 +15,9 @@ RemainAfterExit=true
 
 [Install]
 WantedBy=multi-user.target
-
+```
+```
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable set-queues.service
-'''
+```
