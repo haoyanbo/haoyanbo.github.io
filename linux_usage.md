@@ -1,4 +1,4 @@
-## Define(Reduce queue number)
+## Define(Reduce) queue number
   ![image](https://github.com/user-attachments/assets/8ae4fc3a-037d-41ee-a7ab-8e0a7b6d5806)
 
 ```
