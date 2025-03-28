@@ -21,4 +21,5 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable set-queues.service
+ln -s /etc/systemd/system/set-queues.service /etc/systemd/system/multi-user.target.wants/set-queues.service
 ```
