@@ -47,3 +47,10 @@ int main()
 |       (grows down)    |
 +-----------------------+
 ```
+(1) pmap: to get the memory layout of a process
+    pmap $!
+(2) gdb
+	(gdb) info files (not very clear for me.)
+
+ 
+
