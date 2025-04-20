@@ -33,3 +33,17 @@ int main()
 	return 0;
 } 
 ```
+
+```
++-----------------------+
+|      Code Segment     |  <- program instructions (e.g., compiled C code)
++-----------------------+
+|    Static / Global    |  <- global, static variables (initialized/uninitialized)
++-----------------------+
+|        Heap           |  <- dynamic memory (malloc/free)
+|        (grows up)     |
++-----------------------+
+|        Stack          |  <- function calls, local variables
+|       (grows down)    |
++-----------------------+
+```
