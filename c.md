@@ -1,4 +1,4 @@
-'''
+```
 #include <string.h>
 #include <stdio.h>
 
@@ -9,10 +9,10 @@ int main() {
   printf("strlen=%d, size=%d\n", len, size);
   return 0;
 }
-'''
+```
 strlen=12, size=13
 
-'''
+```
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,4 +32,4 @@ int main()
 	dest=NULL;
 	return 0;
 } 
-'''
+```
