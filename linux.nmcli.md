@@ -1,4 +1,9 @@
 ```
+nmcli [OPTIONS] OBJECT { COMMAND | help }
+OPTION: -t -f
+OBJECT: general, networking, radio, connection, device, agent, and monitor
+```
+```
 nmcli con modify "Wired connection 2" ipv4.addresses 10.59.132.211/24
 nmcli con modify "Wired connection 2" ipv4.gateway 10.59.132.1
 nmcli con modify "Wired connection 2" ipv4.dns "8.8.8.8 8.8.4.4"
